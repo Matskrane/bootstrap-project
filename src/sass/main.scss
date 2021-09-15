@@ -1,0 +1,9 @@
+@use './partials/variables';
+@import "~bootstrap/scss/bootstrap";
+
+
+
+.navbar-light .navbar-brand {
+    color: variables.$headerColor;
+    font-size: 30px;
+}
