@@ -1,0 +1,39 @@
+@use './variables';
+
+
+.navbar-light .navbar-brand {
+    color: variables.$headerColor;
+    font-size: 20px;
+    font-family: variables.$fontHeader;
+    font-weight: bold;
+    font-style: italic;
+    padding-right: 20px;
+
+}
+
+.navbar {
+    max-width: 1140px;
+    margin: auto;
+    background-color: variables.$backgroundColor;
+    height: 70px;
+}
+
+.btn {
+    background-color: variables.$headerColor;
+    border: solid variables.$headerColor;
+    border-radius: 0;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.current {
+    background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: variables.$fontDark;
+    padding: 0 15px;
+    font-family: variables.$fontText;
+}

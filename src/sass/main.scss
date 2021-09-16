@@ -1,9 +1,41 @@
 @use './partials/variables';
-@import "~bootstrap/scss/bootstrap";
+@use './partials/navbar';
 
-
-
-.navbar-light .navbar-brand {
-    color: variables.$headerColor;
-    font-size: 30px;
-}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+  }
+    
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #000;
+    line-height: 1.6;
+    background-color: variables.$backgroundColor;
+  }
+    
+   ul {
+    list-style-type: none;
+  }
+    
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+    
+  h1,
+  h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+    
+  
+  p {
+    margin: 10px 0;
+  }
+    
+  img {
+    width: 100%;
+  }

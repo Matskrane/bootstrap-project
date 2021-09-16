@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './sass/main.scss';
+import './sass/partials/_navbar.scss';
+import './sass/partials/_carousel.scss';
+import './sass/partials/_wedoYAYthings.scss'
 
 ReactDOM.render(
   <React.StrictMode>

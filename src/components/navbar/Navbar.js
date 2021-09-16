@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Form, FormControl, Button, Nav, NavDropdown, Carousel, Tabs, Tab, Container, Row, Col, Accordion } from 'react-bootstrap';
+import { Navbar, Form, FormControl, Button, Nav } from 'react-bootstrap';
 
 
 
@@ -7,7 +7,7 @@ const Home = () => {
     return (
 
         <Navbar expand="lg">
-        <Navbar.Brand href="index.html">The YAY Company</Navbar.Brand>
+        <Navbar.Brand className="logo" href="index.html">The YAY Company</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
 
@@ -16,7 +16,7 @@ const Home = () => {
       style={{ maxHeight: 'auto' }}
       navbarScroll
     >
-      <Nav.Link href="index.html">Home</Nav.Link>
+      <Nav.Link className="current" href="index.html">Home</Nav.Link>
       <Nav.Link href="#action2">News</Nav.Link>
       <Nav.Link href="#action3">Contact</Nav.Link>
     </Nav>
@@ -25,11 +25,11 @@ const Home = () => {
       <FormControl
         type="search"
         placeholder="Search"
-        className="mr-2"
-        aria-label="Search"
+        
       />
-      <Button variant="outline-success">Search</Button>
+      <Button>Go</Button>
     </Form>
+
   </Navbar.Collapse>
 </Navbar>
     );

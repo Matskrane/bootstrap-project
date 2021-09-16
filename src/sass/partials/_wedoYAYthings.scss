@@ -1,0 +1,58 @@
+@use './variables';
+
+.showcase {
+    max-width: 1140px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.showcase h1 {
+    color: variables.$headerColor;
+    font-family: variables.$fontText;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.showcase p {
+    padding-bottom: 25px;
+}
+
+.nav-link {
+    color: variables.$headerColor;
+    padding: 17px 45px;
+    padding-bottom: 25px;
+}
+
+.showcase img {
+    width: 238px;
+}
+
+.flexbox {
+    float: right;
+    max-width: 800px;
+}
+
+.tab-content {
+    background-color: variables.$whiteColor;
+    height: 322px;
+    margin-top: -35px;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+}
+
+.nav-tabs .nav-link.active {
+    border-radius: 15px;
+    border: none;
+}
+
+.svg-inline--fa {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.tab-content span {
+    font-size: 25px;
+    font-family: variables.$fontText;
+}

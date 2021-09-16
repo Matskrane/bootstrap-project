@@ -1,0 +1,29 @@
+@use './variables';
+
+.carousel {
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+.carousel-indicators li {
+    background-color: variables.$backgroundColor;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.carousel-indicators .active {
+    width: 30px;
+    height: 30px;
+    background-color: variables.$headerColor;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    display: none;
+}
+
+
+
+
+
