@@ -6,6 +6,7 @@ import './sass/main.scss';
 import './sass/partials/_navbar.scss';
 import './sass/partials/_carousel.scss';
 import './sass/partials/_wedoYAYthings.scss'
+import './sass/partials/_footer.scss';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,30 @@
+@use './variables';
+
+.footer-background {
+    margin-top: 250px;
+    background-color: variables.$whiteColor;
+    height: 55px;
+}
+
+.footer {
+    padding-top: 5px;
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: variables.$whiteColor;
+    align-items: center;
+    color: #767676;
+    font-family: variables.$fontText;
+}
+
+.container-flex {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    width: 40%;
+}
+
