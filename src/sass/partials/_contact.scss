@@ -55,18 +55,31 @@
     margin-top: -2.5px;
 }
 
+.header-media {
+    display: none;
+}
+
 
 @media (max-width: 1000px) {
 
     .flex {
-        display: block;
+        flex-direction: column-reverse;
     }
 
     .contact-form {
         width: 90%;
+        margin: auto;
     }
 
     .header {
-        margin-left: 15px;
+        display: none;
     }
+
+    .header-media {
+        display: contents;
+        color: variables.$headerColor;
+        font-family: variables.$fontHeader;
+    }
+
+
 }

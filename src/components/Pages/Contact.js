@@ -7,10 +7,11 @@ import { faEnvelope, faMapMarkerAlt, faPhone, } from '@fortawesome/free-solid-sv
 function Contact() {
     return (
         <div>
-            <h1 className="header">Sumbit your details</h1>
+            <h1 className="header">Submit your details</h1>
                 <div className="flex">
 
                     <div className="contact-form">
+                      
                     <Form>
 
                     <Form.Group className="mb-3" controlId="formBasicName">
@@ -45,6 +46,7 @@ function Contact() {
     Submit
   </Button>
 </Form>
+
                     </div>
                     <div className="contact-info">
                       
@@ -62,6 +64,8 @@ function Contact() {
                     <FontAwesomeIcon icon={faMapMarkerAlt}></FontAwesomeIcon>                   
                     <p>123 Some street <br></br> Somewhere <br></br> Some City <br></br>1000</p>                   
                     </div>
+
+                    <h1 className="header-media">Submit your details</h1>
         
 
                 </div>        
