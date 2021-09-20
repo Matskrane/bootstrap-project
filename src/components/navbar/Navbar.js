@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 const TopNav = () => {
     return (
+      <div className="wrapper-background">
 
       <Navbar expand="lg">
         <Link to="/">
@@ -39,6 +40,7 @@ const TopNav = () => {
 
   </Navbar.Collapse>
 </Navbar>
+</div>
     );
 };
 

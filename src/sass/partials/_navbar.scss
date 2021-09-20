@@ -14,7 +14,6 @@
 .navbar {
     max-width: 1140px;
     margin: auto;
-    background-color: variables.$backgroundColor;
     height: 70px;
 }
 
@@ -28,7 +27,7 @@
     justify-content: space-between;
 }
 
-.current {
+.current .nav-link {
     background-color: #ffffff;
 }
 
@@ -38,4 +37,41 @@
     font-family: variables.$fontText;
 }
 
+.wrapper-background {
+    background-color: #f8f8f8;
+}
+
+.navbar .current {
+    background-color: variables.$whiteColor;
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+    .navbar-collapse a {
+        margin: 10px 0;
+        font-size: 25px;
+    }
+
+    .navbar {
+        height: auto;
+    }
+    
+    .navbar-collapse {
+        max-width: 90%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+
+    
+
+
+
+
+}
 

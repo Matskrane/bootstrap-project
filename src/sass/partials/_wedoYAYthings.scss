@@ -56,3 +56,24 @@
     font-size: 25px;
     font-family: variables.$fontText;
 }
+
+
+@media (max-width: 1100px) {
+
+    .tab-content {
+        height: 500px;
+    }
+
+
+}
+
+
+@media (max-width: 700px) {
+
+    .showcase {
+        width: 90%;
+        margin: auto;
+    }
+
+    
+}

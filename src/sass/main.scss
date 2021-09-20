@@ -12,7 +12,6 @@
     font-family: 'Noto Sans', sans-serif;
     color: #000;
     line-height: 1.6;
-    background-color: variables.$backgroundColor;
   }
     
    ul {
@@ -39,3 +38,7 @@
   img {
     width: 100%;
   }
+
+#root {
+  background-color: variables.$backgroundColor;
+}

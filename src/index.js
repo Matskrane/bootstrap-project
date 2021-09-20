@@ -7,6 +7,8 @@ import './sass/partials/_navbar.scss';
 import './sass/partials/_carousel.scss';
 import './sass/partials/_wedoYAYthings.scss'
 import './sass/partials/_footer.scss';
+import './sass/partials/_cards.scss';
+import './sass/partials/_contact.scss';
 
 ReactDOM.render(
   <React.StrictMode>

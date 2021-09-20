@@ -1,0 +1,88 @@
+@use './variables';
+
+.news-area {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.news-area h1 {
+    margin-top: 40px;
+    color: variables.$headerColor;
+    font-size: 34px;
+    font-family: variables.$fontHeader;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.card-text {
+    color: #767676;
+}
+
+.card {
+    border-radius: 15px;
+    width: 90%;
+}
+
+.card img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card .btn {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.pagination {
+    margin: 20px 0;
+}
+
+
+.active li {
+    background-color: variables.$headerColor;
+}
+
+.page-item.active .page-link {
+    background-color: variables.$headerColor;
+    border: solid variables.$headerColor;
+    border-width: 1px;
+    color: variables.$whiteColor;
+}
+
+.page-link {
+    color: variables.$headerColor;
+}
+
+
+@media (max-width:1100px) {
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        margin: auto;
+    }
+
+    .pagination {
+        margin-left: 10px;
+    }
+
+    .news-area h1 {
+        margin-left: 10px;
+    }
+
+}
+
+
+@media (max-width:600px) {
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
